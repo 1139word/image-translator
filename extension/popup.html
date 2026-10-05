@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Image Translator</title>
+<link rel="stylesheet" href="popup.css">
+</head>
+<body>
+<main class="pop">
+  <header class="hd"><span class="lg">T</span>Image Translate</header>
+
+  <div class="wrap" data-key="src">
+    <span class="lbl">Bahasa asal</span>
+    <button class="sel" type="button" aria-haspopup="listbox"><span class="val"></span><span class="caret">▾</span></button>
+    <div class="dd" role="listbox" hidden></div>
+  </div>
+
+  <div class="wrap" data-key="tgt">
+    <span class="lbl">Bahasa tujuan</span>
+    <button class="sel" type="button" aria-haspopup="listbox"><span class="val"></span><span class="caret">▾</span></button>
+    <div class="dd" role="listbox" hidden></div>
+  </div>
+
+  <div class="wrap" data-key="model">
+    <span class="lbl">Model terjemahan</span>
+    <button class="sel" type="button" aria-haspopup="listbox"><span class="val"></span><span class="caret">▾</span></button>
+    <div class="dd" role="listbox" hidden></div>
+  </div>
+
+  <div class="saved" id="saved" aria-live="polite"></div>
+  <div class="note" id="msg"></div>
+</main>
+<script src="popup.js"></script>
+</body>
+</html>
