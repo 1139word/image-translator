@@ -6,13 +6,13 @@ Ringkasan keputusan teknologi proyek. Dokumen SRS, SDD, dan catatan lain disimpa
 
 | Bagian | Pilihan | Alasan singkat |
 |---|---|---|
-| Extension | Chrome Manifest V3, JavaScript biasa | Target hanya Google Chrome; tanpa framework agar mudah dipahami |
+| Extension | Chrome Manifest V3, JavaScript biasa | Target hanya Google Chrome; tanpa framework agar mudah |
 | Backend | Node.js + Express | Satu bahasa dengan extension; menangani akun, credit, pembayaran, dan pemanggilan OCR serta Gemini |
-| OCR | PaddleOCR (layanan Python kecil dipanggil backend) | Pustaka OCR yang sudah dipilih |
-| Terjemahan | Gemini: mode Standar (1 credit) dan Advanced (2 credit, khusus Premium) | Sesuai rancangan paket |
-| Database | MySQL | Keputusan proyek |
-| Pembayaran | QRIS lewat Midtrans | Keputusan proyek |
-| File Explorer | Native Messaging (menu klik kanan hanya untuk Premium) | Disetujui di rancangan |
+| OCR | PaddleOCR (layanan Python kecil dipanggil backend) | Pustaka OCR mumpuni |
+| Terjemahan | Gemini: mode Standar (1 credit) dan Advanced (2 credit, khusus Premium) | Untuk menjaga ekonimi |
+| Database | MySQL | - |
+| Pembayaran | QRIS lewat Midtrans | - |
+| File Explorer | Native Messaging (menu klik kanan hanya untuk Premium) | Meningkatkan value dari premium |
 
 ## Alur pengaturan dan pembayaran
 
