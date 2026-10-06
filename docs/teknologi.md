@@ -1,6 +1,6 @@
 # Keputusan teknologi
 
-Ringkasan keputusan teknologi proyek. Dokumen SRS, SDD, dan catatan lain disimpan terpisah di Drive.
+Ringkasan keputusan teknologi proyek. Dokumen SRS, SDD, dan catatan lain tersimpan terpisah.
 
 ## Pilihan
 
